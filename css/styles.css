@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+width: 65%;
+text-align: left;
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  background-color: hsl(257, 40%, 49%);
+}
+
+.logo {
+  position: absolute;
+  left: 175px;
+  top: 50px;
+
+}
+
+.mockup {
+  position: absolute;
+  top: 225px;
+  left: 175px;
+}
+
+.right-container {
+  position: absolute;
+  left: 62%;
+  bottom: 25%;
+  line-height: 1.5;
+}
+
+.subheader {
+width: 80%;
+text-align: left;
+font-family: 'Open Sans', sans-serif;
+color: white;
+}
+
+.button {
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(257, 40%, 49%);
+  font-size: 14px;
+  background: #dae6ed;
+  padding: 15px 45px 15px 45px;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  margin-top: 25px;
+}
+
+.fb {
+  position: relative;
+  width: 2.5%;
+  bottom: 5rem;
+  left: 35rem;
+  margin-right: 25px;
+  filter: invert(100%);
+}
+.fb:hover {
+  filter: invert(0%);
+}
+
+.tw {
+  position: relative;
+  width: 2.5%;
+  bottom: 5rem;
+  left: 35rem;
+  filter: invert(100%);
+}
+.tw:hover {
+  filter: invert(0%);
+}
+
+.ig {
+  position: relative;
+  width: 2.5%;
+  bottom: 5rem;
+  left: 35rem;
+  margin-left: 25px;
+  filter: invert(100%);
+}
+.ig:hover {
+  filter: invert(0%);
+}
+
+.attribution {
+  margin: 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
